@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:rgb(17, 51, 51);
+}
+
+h1 {
+    width: 80%;
+    margin: 10px 150px;
+    background-color:rgb(202, 11, 11);
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+#user_form {
+    width: 80%;
+    margin: 20px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+input, button {
+    width: 29%;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #b0d5e6;
+    font-size: 17px;
+    border: none;
+}
+
+#submit {
+    width: 10%;
+    background-color: rgb(5, 142, 5);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color:rgba(70, 246, 6, 0.804);
+    color: black;
+}
+
+h2 {
+    width: 80%;
+    margin: 0 150px;
+    color: rgb(252, 251, 251);
+    background-color: rgba(233, 10, 10, 0.896);
+    text-align: center;
+    padding: 5px;
+}
+
+table {
+    width: 80.5%;
+    margin: 10px 145px;
+}
+
+table, th,td{
+    border: 5px solid rgb(17, 51, 51);
+    border-collapse: collapse;
+    padding: 8px;
+}
+
+th {
+    background-color: rgb(0, 139, 32);
+    color: white;
+}
+
+td {
+    background-color: #b0d5e6;
+}
+
+.delete {
+    background-color: crimson;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.delete:hover {
+    background-color: rgb(253, 96, 40);
+    color: black;
+}
+
+.message1,.message2 {
+    color: red;
+    margin-left: 700px;
+}
