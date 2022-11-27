@@ -45,13 +45,17 @@ function updateDetails(){
 
         nameInput.value = "", emailInput.value = "", numberInput.value = "";
 
-        deleteBtn.addEventListener('click',() => {
-            newRow.remove();
-            message2.innerText = "Item deleted Successfully!";
-            setTimeout(()=>{
-                message2.innerText = "";
-            },2000);
-        })
     }
 
 }
+
+
+detailsTable.addEventListener("click",(event) => {
+    if (event.target.classList.contains("delete")){
+        event.target.parentElement.remove();
+        message2.innerText = "Item deleted Successfully!";
+        setTimeout(()=>{
+        message2.innerText = "";
+        },2000);
+    }
+})
